@@ -8,7 +8,7 @@ public interface IPersonaService {
 	public void guardar(Persona persona);
 
 	public void actualizar(Persona persona);
-
+	
 	public Persona consultarPorCedula(String cedula);
 	
 	public List<Persona> consultarTodos();

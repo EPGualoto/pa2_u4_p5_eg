@@ -8,7 +8,7 @@ public interface IPersonaRepository {
 	public void insertar(Persona persona);
 
 	public void actualizar(Persona persona);
-
+	
 	public Persona consultarPorCedula(String cedula);
 	
 	public List<Persona> consultarTodos();
